@@ -80,6 +80,9 @@ importers:
       '@iconify-json/svg-spinners':
         specifier: ^1.2.2
         version: 1.2.2
+      '@jridgewell/sourcemap-codec':
+        specifier: ^1.5.0
+        version: 1.5.0
       '@lezer/highlight':
         specifier: ^1.2.1
         version: 1.2.1
@@ -125,6 +128,9 @@ importers:
       '@remix-run/react':
         specifier: ^2.15.2
         version: 2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
+      '@rollup/plugin-inject':
+        specifier: ^5.0.5
+        version: 5.0.5(rollup@4.29.2)
       '@uiw/codemirror-theme-vscode':
         specifier: ^4.23.7
         version: 4.23.7(@codemirror/language@6.10.8)(@codemirror/state@6.5.0)(@codemirror/view@6.36.1)
@@ -224,15 +230,9 @@ importers:
       remix-utils:
         specifier: ^7.7.0
         version: 7.7.0(@remix-run/cloudflare@2.15.2(@cloudflare/workers-types@4.20241230.0)(typescript@5.7.2))(@remix-run/node@2.15.2(typescript@5.7.2))(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/router@1.21.0)(react@18.3.1)(zod@3.24.1)
-      rollup-plugin-inject:
-        specifier: ^3.0.2
-        version: 3.0.2
       shiki:
         specifier: ^1.26.1
         version: 1.26.1
-      sourcemap-codec:
-        specifier: 1.4.8
-        version: 1.4.8
       unist-util-visit:
         specifier: ^5.0.0
         version: 5.0.0
@@ -7827,7 +7827,7 @@ snapshots:
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.0)
       '@vanilla-extract/babel-plugin-debug-ids': 1.2.0
       '@vanilla-extract/css': 1.17.0
-      esbuild: 0.17.6
+      esbuild: 0.17.19
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0
